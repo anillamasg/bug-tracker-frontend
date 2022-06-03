@@ -1,13 +1,101 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#navbar-main {
+  justify-content: flex-end;
+}
+
+.navbar {
+  background-color: #0090ff !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: white !important;
+  color: #0090ff !important;
+}
+
+.color-main {
+  color: #0090ff !important;
+}
+
+.background-color-main {
+  background-color: #0090ff !important;
+}
+
+.background-color-secondary {
+  background-color: #ffb300 !important;
+}
+
+.background-color-tertiary {
+  background-color: #00d8b8 !important;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  color: #0090ff !important;
+}
+
+.custom-container .card-main {
+  border: none !important;
+}
+
+.custom-container .card-main-body {
+  padding: 0 !important;
+}
+
+.ticket-table td {
+  border-bottom-width: 0 !important;
+  padding: 0rem 0rem 0rem 0rem !important;
+}
+
+.card-comment .card-body {
+  padding: 0.5rem;
+}
+
+.card-img-top {
+  width: 30% !important;
+}
+
+#uploadedAttachments dt {
+  font-weight: 400;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-size-point9 {
+  font-size: 0.9rem;
+}
+
+.hyperlink {
+  color: #0090ff;
+  text-decoration: underline;
+  cursor: pointer;
 }
